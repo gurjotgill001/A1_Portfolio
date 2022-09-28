@@ -174,3 +174,44 @@ nav{
 	padding:2%;
 	border-radius: 50%;
 }
+
+#chat{
+	width:100%;
+	margin-top: 5%;
+}
+
+#chat h2{
+	font-size: 45px;
+	text-align: center;
+}
+#chat p{
+	font-size: 15px;
+	text-align: center;
+	margin-bottom: 5%;
+}
+#chat_btn{
+	position: absolute;
+	width:35%;
+	margin: 0% 31%;
+	padding: 1.5%;
+	background: rgba(253, 251, 255, 0.99);
+	border: 3px solid rgba(129, 12, 245, 0.99);
+	border-radius: 60px;
+}
+#chat_btn h4:hover{
+	color:black;
+	text-decoration: underline;
+}
+#chat_btn img{
+	height: 50px; 
+	padding-left:8%;
+	float:left;
+}
+#chat_btn h4{
+	float: right;
+	color:#810CF5;
+	text-align: center;
+	padding-top:2%;
+	padding-right:13%;
+	font-size: 28px;
+}
