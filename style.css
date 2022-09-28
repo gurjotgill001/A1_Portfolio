@@ -215,3 +215,29 @@ nav{
 	padding-right:13%;
 	font-size: 28px;
 }
+
+footer{
+	width:100%;
+	position: absolute;
+}
+.social {
+	width:50%;
+	margin:0 auto;
+	margin-top: 15%;
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto;
+}
+.links {
+	width:90%;
+	float:right;
+}
+.links img{
+	height:50px;
+}
+.links img:hover{
+	opacity:.5;
+}
+.company p{
+	text-align: center;
+	padding:3%;
+}
